@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #e6f0ff;
+    padding: 20px;
+}
+
+.container img {
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0047ab;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+blockquote {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.team-info {
+    background-color: #0047ab;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.team-info h2 {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+ul, ol {
+    margin: 20px 0;
+    margin-left: 25px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #0047ab;
+    color: white;
+}
+
+table td {
+    background-color: #f2f2f2;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+a {
+    color: #0047ab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
